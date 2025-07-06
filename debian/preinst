@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ ! -d /etc/initscripts ]; then
+	mkdir /etc/initscripts
+fi
+
+exit 0

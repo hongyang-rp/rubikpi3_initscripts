@@ -1,0 +1,11 @@
+Source: rubikpi3-initscripts
+Section: utils
+Priority: extra
+Maintainer: Hongyang Zhao <hongyang.zhao@thundersoft.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: rubikpi3-initscripts
+Architecture: arm64
+Description: Init scripts for RUBIK Pi 3
+ Custom initialization scripts for RUBIK Pi 3 board

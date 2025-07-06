@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if ! grep -q -E -i "^[[:space:]]*"ledtrig-heartbeat"[[:space:]]*$" "/etc/modules" 2>/dev/null; then
+    echo "ledtrig-heartbeat" | tee -a "/etc/modules" > /dev/null
+fi
+
+exit 0

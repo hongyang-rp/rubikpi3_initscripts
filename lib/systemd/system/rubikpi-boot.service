@@ -1,0 +1,11 @@
+[Unit]
+SourcePath=/etc/initscripts/rubikpi_boot.sh
+Description=Rubik Pi boot service
+After=network.target
+
+[Service]
+ExecStartPre=/bin/sleep 3
+ExecStart=/etc/initscripts/rubikpi_boot.sh
+
+[Install]
+WantedBy=multi-user.target
